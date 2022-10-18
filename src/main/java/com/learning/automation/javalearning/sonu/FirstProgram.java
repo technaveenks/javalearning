@@ -21,7 +21,7 @@ public class FirstProgram {
 				
 				// multiplication
 				int product = a * b * c * d;
-				System.out.println("- Multiplcation of a*b*c*d: "+product);
+				System.out.println("- Multiplication of a*b*c*d: "+product);
 				
 				// division
 				int result = (a +b)/ (c +d);
