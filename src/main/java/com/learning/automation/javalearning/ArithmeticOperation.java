@@ -9,7 +9,9 @@ public class ArithmeticOperation {
 		/*
 		 * System.out.println(" Arithmetic Operation ");
 		 *  int firstValue = 10; 
-		 *  int secondValue = 20; int sum= firstValue+secondValue; System.out.println(sum);
+		 *  int secondValue = 20; 
+		 *  int sum= firstValue+secondValue; 
+		 *  System.out.println(sum);
 		 */
 		Scanner scanner = new Scanner(System.in);
 		
