@@ -74,7 +74,7 @@ public class StringMethods {
 		
 		//String Builder delete
 		StringBuilder sb3 = new StringBuilder("Testing");
-		sb3.delete(2,5);
+		sb3.delete(1,3);
 		System.out.println(sb3);
 		
 		//String Builder Reverse
