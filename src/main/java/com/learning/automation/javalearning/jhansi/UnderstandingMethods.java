@@ -29,7 +29,7 @@ public class UnderstandingMethods {
 	
 	public void modulo() {
 		int subValue = firstValue % secondValue;
-		System.out.println(" The modualr of two values are "+ subValue);
+		System.out.println(" The modualo of two values are "+ subValue);
 	}
 	public static void main(String[] args) {
 		UnderstandingMethods  understandingMethods = new UnderstandingMethods();
