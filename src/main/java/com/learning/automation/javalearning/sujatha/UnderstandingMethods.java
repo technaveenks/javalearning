@@ -20,8 +20,8 @@ public class UnderstandingMethods {
 	public void Multiplication(int a,int b)
 	{
 		int r=a*b;
-		System.out.println(r);
-		
+		System.out.println("The result from method with parameter"+r);
+	
 		//int Result=FirstValue*SecondValue;
 		//System.out.println("Multiplication of Two Values "+ Result);
 	}

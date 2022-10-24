@@ -22,15 +22,29 @@ public class UnderstandingStrings {
 		System.out.println(LN.contains(FN));
 		System.out.println(LN.concat(FN));
 		System.out.println(LN.codePointBefore(1));
-		//System.out.println(sbo.append(false));
+		System.out.println(sbo.append(false));
+		
+		System.out.println("String Builder");
 		System.out.println(sbo.lastIndexOf(LN));
+		//StringBuilder Deletion**
 		System.out.println(sbo.delete(3,5));
+		
 		System.out.println(sbo.lastIndexOf(str, 3));
-		System.out.println(sbo.reverse());
-		//System.out.println(str.re);
-		System.out.println(sbo.replace(2, 5,"is"));
+		//String Reverse**
+		//System.out.println(sbo.reverse());
+		
+		System.out.println(str.concat(" hello"));
+		
+		//Replace**
+		System.out.println("replace");
+		System.out.println(sbo.replace(2, 5,"HAI"));
 		System.out.println(sbo.delete(3,6));
-		//System.out.println(String.valueOf(x));
+		
+		//String conversion **
+		System.out.println(String.valueOf(x));
+		
+		
+		
 		
 	}
 
