@@ -2,7 +2,7 @@ package com.learning.automation.javalearning.sonu;
 
 public class Ifelsestatementslab {
     public static void main(String[] args) {
-        int a = 45;
+        int a = 90;
         int b = 60;
         int c = 35;
         if (a < b) {
