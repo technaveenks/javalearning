@@ -11,7 +11,7 @@ public class UnderstandingArrays {
 			System.out.println("----" +retrievedValues);
 		}
 		
-		int studentMarks[][]= {{4,5,6,8,9},{6,8,9,5,5},{8,7,6,8,9}};
+		int studentMarks[][]= {{4,5,6,8,9},{6,8,9,5,5,4,5,3,2,3,4,5,2},{8,7,6,8,9}};
 		System.out.println(studentMarks[1][0]);
 		for(int[] retrievedValues :studentMarks) {
 			for(int values :retrievedValues) {
