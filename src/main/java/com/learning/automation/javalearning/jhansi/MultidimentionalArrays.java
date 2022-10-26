@@ -22,5 +22,4 @@ public class MultidimentionalArrays {
 				System.out.println(names[0][j] + " "+ (names[1][j]));	
 			}
 		}
-
 }
