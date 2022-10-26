@@ -32,13 +32,16 @@ public class UnderstandingArrays {
 		
 			//Multidimensionsal String Array
 		String stringarray[][]= {{"uma","radhi","radha","sam"},{"soni","girija","uma2","nayan"},{"happy","fara","sara","tara"}};
-
+int n=0;
 		for(String []sarray:stringarray)
 		{
+			++n;
+			System.out.println(n);
 			for(String sarrayvalues:sarray)
 			{
-				System.out.println("!!"+sarrayvalues);
+				System.out.println("!!"+sarrayvalues+"\t");
 			}
+			System.out.println("\n");
 		}
 	}
 
