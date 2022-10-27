@@ -38,12 +38,10 @@ public class UnderstandingCasting {
 		
 		//byte to short
 		byte b1=5;
-		
 		short s1=b1;
 		System.out.println("casting from byte to short:"+b1);
 		
 		//short to byte
-		
 		short s2=45;
 		byte b2=(byte)s2;
 		System.out.println("casting from short to byte:"+b2);
@@ -56,7 +54,6 @@ public class UnderstandingCasting {
 		
 		//int to byte
 		int i6=100;
-		
 		byte b4=(byte)i6;
 		System.out.println("casting from int to byte:"+i6);
 		
