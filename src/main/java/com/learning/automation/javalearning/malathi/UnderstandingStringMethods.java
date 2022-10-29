@@ -17,13 +17,15 @@ public class UnderstandingStringMethods {
 				System.out.println(firststring.contains(cs));
 				System.out.println(firststring.contentEquals(cs));
 				System.out.println(firststring.contentEquals(sb));
-				System.out.println(firststring.copyValueOf(data));
-				System.out.println(firststring.copyValueOf(data,0,2));
+				System.out.println(String.copyValueOf(data));
+				System.out.println(String.copyValueOf(data,0,2));
 				System.out.println(firststring);
 				System.out.println(data);
 				System.out.println(firststring.endsWith("."));
 				System.out.println(firststring.equals(firststring));
-				System.out.println(firststring.format(compare,10));
+				System.out.println(String.format("The secong string is %s", compare));
+				char[] ch={'a','s','s','d'};
+				System.out.println((String.copyValueOf(ch)).getClass().getSimpleName());
 	}
 
 }
