@@ -7,6 +7,7 @@ public interface IArithmeticOperator {
 	public void division(int a,int b);
 	public void multiplication(int a,int b);
 	public void modulo(int a,int b);
+	void additon(int fvalue, int svalue);
 
 
 }

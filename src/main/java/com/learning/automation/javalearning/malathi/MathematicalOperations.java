@@ -1,5 +1,5 @@
 package com.learning.automation.javalearning.malathi;
-
+import com.learning.automation.javalearning.malathi.*;
 public class MathematicalOperations implements IArithmeticOperator{
 
 
@@ -51,6 +51,13 @@ public class MathematicalOperations implements IArithmeticOperator{
 		// TODO Auto-generated method stub
 		int c=a%b;
 		System.out.println(c);
+		
+	}
+
+
+	@Override
+	public void additon(int fvalue, int svalue) {
+		// TODO Auto-generated method stub
 		
 	}
 
