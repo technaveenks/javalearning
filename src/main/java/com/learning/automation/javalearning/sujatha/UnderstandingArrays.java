@@ -1,5 +1,10 @@
 package com.learning.automation.javalearning.sujatha;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class UnderstandingArrays {
 
 	public static void main(String[] args) {
@@ -15,7 +20,10 @@ public class UnderstandingArrays {
 		}
 		//Array with String Datatype
 		String s[]= {"surya","Karthik","Vinodh","Raja","Ram"};
-				for(String s1:s) {
+		
+		
+		for(String s1:s) {
+					//System.out.println(s1.toCharArray());
 					System.out.println(s1);
 		}
 		
