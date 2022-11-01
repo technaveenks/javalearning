@@ -1,6 +1,6 @@
 package com.learning.automation.javalearning.gayathri;
 
-public class MathematicalOperations implements iArthmeticOperators{
+public class MathematicalOperations implements IArthmeticOperators{
 
 	public static void main(String[] args) {
 		MathematicalOperations mo = new MathematicalOperations();
