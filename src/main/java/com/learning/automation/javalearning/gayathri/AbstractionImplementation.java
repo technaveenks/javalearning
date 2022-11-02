@@ -7,9 +7,14 @@ public class AbstractionImplementation extends MathematicalOperations1 implement
 		AImp.addition(10,30);
 		AImp.multiplication(10,20);
 		AImp.addition(10,20,30);
+		
+		//Accessing the methods from the same package
+		
+		MethodExample1 methods = new MethodExample1();
+	    methods.addition();
 
 	}
-
+     
 	@Override
 	public void addition(int fvalue, int svalue) {
 		// TODO Auto-generated method stub

@@ -9,11 +9,11 @@ public class MethodExample {
 	
 	//Declaring a method
 	
-	public void Addition() {
+	public void addition() {
 		System.out.println("print the sum of two numbers : " + sum);
 	}
 	
-	public void Subtraction() {
+	public void subtraction() {
 		int Diff = a-b;
 		System.out.println("print the subtraction of two numbers : " + Diff);
 	}
@@ -21,22 +21,23 @@ public class MethodExample {
 		System.out.println("print the multiplication of two numbers : " + mul);
 		
 	}
-	public void Division() {
+	public void division() {
 		int Div = a/b;
 		System.out.println("print the division of two numbers : " + Div);
 	}
-	public void Modulo() {
+	public void modulo() {
+		
 		int mod = a%b;
 		System.out.println("print the modulo of two numbers : " + mod);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       MethodExample methodex = new MethodExample();
-      methodex.Addition();
-      methodex.Subtraction();
+      methodex.addition();
+      methodex.subtraction();
       methodex.multiplication();
-      methodex.Division();
-      methodex.Modulo();
+      methodex.division();
+      methodex.modulo();
 	}
 
 }
