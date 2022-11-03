@@ -1,7 +1,7 @@
 package com.learning.automation.javalearning.gayathri;
 
 public interface IArthmeticOperators {
-	
+	//updated the interface name
 	public void addition(int a,int b);
 	public void subtraction(int a,int b);
 	public void multiplication(int a,int b);
