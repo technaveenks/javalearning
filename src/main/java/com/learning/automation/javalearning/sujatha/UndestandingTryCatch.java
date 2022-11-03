@@ -17,6 +17,7 @@ public class UndestandingTryCatch {
 		}
 		catch(Exception e)
 		{
+			System.out.println(e);
 			System.out.println("This is catch block");
 		}
 		finally
