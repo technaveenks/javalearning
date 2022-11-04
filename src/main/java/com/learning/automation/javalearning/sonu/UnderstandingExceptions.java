@@ -28,13 +28,7 @@ public class UnderstandingExceptions {
             System.out.println("Finally block executed");
         }
 
-        File file = new File("\"C:\\Users\\SonuP\\OneDrive\\Desktop\\Sample.txt.txt\"");
-        if (file.createNewFile()){
-            System.out.println("File Created "+file.getName() + " " + file.getAbsolutePath());
 
-        }else {
-            System.out.println("File Already Exists");
-        }
 
 
 
